@@ -6,7 +6,8 @@ app/logs/*
 /.idea
 app/bootstrap.php.cache
 atlassian-ide-plugin.xml
-composer.phar
+/composer.phar
+/phpunit.phar
 composer.lock
 /vendor
 build/
@@ -22,3 +23,6 @@ build/
 *~
 
 /app/SymfonyRequirements.php
+install.sh
+load-demo.sh
+test_env_install.sh
